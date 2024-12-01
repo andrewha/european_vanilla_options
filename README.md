@@ -17,6 +17,8 @@ Then the prices can be calculated using the known closed-form solution of the Bl
 
 You can build a sample option price calculator such as [main.cpp](src/main.cpp) using the [CMakeLists.txt](CMakeLists.txt). No external libraries are required, only the C++ Standard Library.
 
+Port from C++ to Python with the same functionality as a Jupyter Notebook can be found [here](python/main.ipynb).
+
 Examples of price calculation:
 
 ```
