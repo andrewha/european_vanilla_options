@@ -2,6 +2,7 @@
 
 This is an example implementation in C++ and Python of European vanilla call and put options. This example is an adaption from the book [C++ for Quantitative Finance by (C) Michael Halls-Moore, 2010](https://www.quantstart.com/cpp-for-quantitative-finance-ebook/).
 
+---
 #### Description
 
 Price of a European vanilla option can be described by 5 parameters:
@@ -14,14 +15,16 @@ $S$        | double (real) | Current price of the underlying asset
 $\sigma$   | double (real) | Volatility of the underlying asset's returns
 
 Then the prices can be calculated using the known closed-form solution of the Black-Scholes equation as follows:
-- Call: $C(S) = S N(d_1) - K e^{-r T} N(d_2)$, where $N = CDF_{\mathcal{N}(0, 1)}$;
-- Put: $P(S) = K e^{-r T} N(-d_2) - S N(-d_1)$.
+- Call: $C(S) = S N(d_1) - K e^{-r T} N(d_2)$, where $N = CDF_{\mathcal{N}(0, 1)}$
+- Put: $P(S) = K e^{-r T} N(-d_2) - S N(-d_1)$
 
+---
 #### Implementation
 
 - You can build a sample C++ option price calculator such as [main.cpp](src/main.cpp) using the [CMakeLists.txt](CMakeLists.txt). No external libraries are required, only the C++ Standard Library.
 - Python Jupyter Notebook with the same functionality can be found [here](python/main.ipynb).
 
+---
 #### Examples of price calculation (C++)
 
 ```
