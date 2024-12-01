@@ -12,10 +12,10 @@ $S$        | double (real) | Current price of the underlying asset
 $\sigma$   | double (real) | Volatility of the underlying asset's returns
 
 Then the prices can be calculated using the known closed-form solution of the Black-Scholes equation as follows:
-- Call: $C(S) = S N(d_1) - K e^{-r T} N(d_2)$, where $N = CDF_{\mathcal{N}(0, 1)}$
-- Put: $P(S) = K e^{-r T} N(-d_2) - S N(-d_1)$
+- Call: $C(S) = S N(d_1) - K e^{-r T} N(d_2)$, where $N = CDF_{\mathcal{N}(0, 1)}$;
+- Put: $P(S) = K e^{-r T} N(-d_2) - S N(-d_1)$.
 
-You can build a sample option price calculator such as [main.cpp](src/main.cpp) using the [CMakeLists.txt](CMakeLists.txt).
+You can build a sample option price calculator such as [main.cpp](src/main.cpp) using the [CMakeLists.txt](CMakeLists.txt). No external libraries are required, only the C++ Standard Library.
 
 Examples of price calculation:
 
