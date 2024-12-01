@@ -10,7 +10,7 @@ from scipy.stats import norm
 
 class EuropeanVanillaOption():
     """
-    Constructor a new European Vanilla Option object.
+    Construct a new European Vanilla Option object.
     """
 
     def __init__(self, K: float=100.0, r: float=0.05, T: float=1.0, S: float=100.0, sigma: float=0.2):
