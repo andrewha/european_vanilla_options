@@ -14,7 +14,7 @@ $T$        | double (real) | Time to maturity (in years)
 $S$        | double (real) | Current price of the underlying asset
 $\sigma$   | double (real) | Volatility of the underlying asset's returns
 
-Then the prices can be calculated using the known closed-form solution of the Black-Scholes equation as follows:
+Then the prices can be calculated using the well-known closed-form solution of the Black-Scholes equation:
 - Call: $C(S) = S N(d_1) - K e^{-r T} N(d_2)$, where $N = CDF_{\mathcal{N}(0, 1)}$
 - Put: $P(S) = K e^{-r T} N(-d_2) - S N(-d_1)$
 
