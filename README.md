@@ -1,6 +1,6 @@
 ### European Vanilla Options
 
-This is an example implementation in C++ of European vanilla call and put options. This example is an adaption from the book "C++ for Quantitative Finance" by (C) Michael Halls-Moore, 2010.
+This is an example implementation in C++ of European vanilla call and put options. This example is an adaption from the book [C++ for Quantitative Finance by (C) Michael Halls-Moore, 2010](https://www.quantstart.com/cpp-for-quantitative-finance-ebook/).
 
 Price of a European vanilla option can be described by 5 parameters:
 Parameter  | Type          | Description
