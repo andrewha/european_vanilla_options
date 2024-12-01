@@ -36,8 +36,10 @@ namespace std_norm
      * 
      * \f$ \displaystyle \Phi(x) = \frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{x} e^{-t^2 / 2} dt \f$.
      *
-     * The definite integral calculation is adapted from Michael Halls-Moore. C++ for Quantitative Finance, 2010 which in turn is an adaptation from
-     * M. S. Joshi. C++ Design Patterns and Derivatives Pricing, 2nd Ed. Cambridge University Press, 2008.
+     * The definite integral calculation is adapted from 
+     * [Michael Halls-Moore. C++ for Quantitative Finance, 2010](https://www.quantstart.com/cpp-for-quantitative-finance-ebook/) 
+     * which in turn is an adaptation from
+     * [Mark S. Joshi. C++ Design Patterns and Derivatives Pricing, 2nd Ed. Cambridge University Press, 2008](https://www.amazon.com/Patterns-Derivatives-Pricing-Mathematics-Finance/dp/0521721628/).
      *
      * @param x
      * @return double
