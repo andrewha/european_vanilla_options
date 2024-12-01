@@ -84,7 +84,7 @@ private:
     double K_, r_, T_, S_, sigma_, d_1_, d_2_;
 
     /**
-     * @brief Calculate intermidiate variables:
+     * @brief Calculate intermediate variables:
      * 
      * \f$ \displaystyle d_1 = \frac{ln(S/K) + (r + \sigma^2 / 2)T}{\sigma \sqrt{T}} \f$, 
      * represents a standardized measure of how far the current price S is from the strike price K 
