@@ -15,7 +15,7 @@ class EuropeanVanillaOption():
 
     def __init__(self, K: float=100.0, r: float=0.05, T: float=1.0, S: float=100.0, sigma: float=0.2):
         """
-        Init with some default values.
+        Init option with its parameters.
 
         Parameters
         ----------
@@ -30,6 +30,7 @@ class EuropeanVanillaOption():
         sigma : float, optional
             Volatility of the underlying asset's returns, by default 0.2
         """
+        # Set option's parameters
         self.K_ = K
         self.r_ = r
         self.T_ = T
