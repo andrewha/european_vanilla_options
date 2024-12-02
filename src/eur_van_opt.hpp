@@ -24,7 +24,7 @@ public:
      *
      */
     EuropeanVanillaOption()
-        // Init with some default values
+        // Init option with some default parameters
         : K_(100.0)   // $100
         , r_(0.05)    // 5% interest rate
         , T_(1.0)     // 1-year maturity
