@@ -20,7 +20,7 @@ class EuropeanVanillaOption
 public:
     
     /**
-     * @brief Default constructor a new European Vanilla Option object.
+     * @brief Default constructor of a new European Vanilla Option object.
      *
      */
     EuropeanVanillaOption()
